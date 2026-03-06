@@ -1,0 +1,37 @@
+name: Feature Request
+description: Suggest a new tool, prompt, or improvement
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: Got an idea? We'd love to hear it!
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem does this solve?
+      description: Describe the use case or limitation you're hitting.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: How would you like it to work?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options:
+        - New MCP tool
+        - New prompt
+        - Improvement to existing tool
+        - Developer experience
+        - Documentation
+        - Other
+    validations:
+      required: true
