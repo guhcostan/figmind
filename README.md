@@ -12,13 +12,7 @@
 
   <br/>
 
-  [<img src="https://cursor.com/deeplink/mcp-install-dark.svg" alt="Add to Cursor" height="32" />](#step-1--configure-your-mcp-client)
-
-  <sub>↑ Copy the deeplink below and paste it into your browser if the button doesn't open Cursor directly</sub>
-
-  ```
-  cursor://anysphere.cursor-deeplink/mcp/install?name=figmind&config=eyJjb21tYW5kIjogIm5weCIsICJhcmdzIjogWyIteSIsICJmaWdtaW5kQGxhdGVzdCJdfQ==
-  ```
+  [<img src="https://cursor.com/deeplink/mcp-install-dark.svg" alt="Add to Cursor" height="32" />](https://cursor.com/link/mcp/install?name=figmind&config=eyJjb21tYW5kIjogIm5weCIsICJhcmdzIjogWyIteSIsICJmaWdtaW5kQGxhdGVzdCJdfQ==)
 
   <br/>
 
@@ -65,11 +59,7 @@ figmind runs a local MCP server your AI can call. A companion Figma plugin bridg
 
 **One-click install for Cursor:**
 
-Paste this deeplink into your browser to install with one click:
-
-```
-cursor://anysphere.cursor-deeplink/mcp/install?name=figmind&config=eyJjb21tYW5kIjogIm5weCIsICJhcmdzIjogWyIteSIsICJmaWdtaW5kQGxhdGVzdCJdfQ==
-```
+[<img src="https://cursor.com/deeplink/mcp-install-dark.svg" alt="Add to Cursor" height="32" />](https://cursor.com/link/mcp/install?name=figmind&config=eyJjb21tYW5kIjogIm5weCIsICJhcmdzIjogWyIteSIsICJmaWdtaW5kQGxhdGVzdCJdfQ==)
 
 Or manually — open `~/.cursor/mcp.json` and add:
 
