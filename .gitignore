@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+*.js.map
+*.d.ts.map
+package-lock.json
+**/.DS_Store

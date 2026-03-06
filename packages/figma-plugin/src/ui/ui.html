@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Figma MCP Bridge</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: Inter, -apple-system, sans-serif;
+        background: #ffffff;
+        padding: 16px;
+        color: #1a1a1a;
+      }
+
+      .header {
+        font-size: 11px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: #666;
+        margin-bottom: 12px;
+      }
+
+      .status-row {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      .indicator {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: #e53e3e;
+        flex-shrink: 0;
+        transition: background 0.2s;
+      }
+
+      .indicator.connected {
+        background: #38a169;
+      }
+
+      .status-label {
+        font-size: 13px;
+        color: #333;
+      }
+
+      .address {
+        margin-top: 10px;
+        font-size: 11px;
+        color: #999;
+        font-family: "SF Mono", monospace;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="header">MCP Bridge</p>
+    <div class="status-row">
+      <div class="indicator" id="indicator"></div>
+      <span class="status-label" id="status-text">Connecting…</span>
+    </div>
+    <p class="address">ws://localhost:4545</p>
+  </body>
+</html>

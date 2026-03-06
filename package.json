@@ -1,0 +1,17 @@
+{
+  "name": "@figma-mcp-bridge/workspace",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "concurrently \"yarn workspace figmind dev\" \"yarn workspace @figmind/plugin dev\"",
+    "build": "yarn build:server && yarn build:plugin",
+    "build:server": "yarn workspace figmind build",
+    "build:plugin": "yarn workspace @figmind/plugin build",
+    "test": "yarn workspace figmind test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

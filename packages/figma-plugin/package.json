@@ -1,0 +1,16 @@
+{
+  "name": "@figmind/plugin",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.103.0",
+    "html-webpack-plugin": "^5.6.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.0",
+    "webpack": "^5.97.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

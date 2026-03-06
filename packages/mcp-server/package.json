@@ -1,0 +1,48 @@
+{
+  "name": "figmind",
+  "version": "1.0.0",
+  "description": "Connect Cursor AI to Figma via MCP (Model Context Protocol) — read and modify designs in real time",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": "dist/index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "test": "vitest run"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "figma",
+    "mcp",
+    "cursor",
+    "ai",
+    "design",
+    "model-context-protocol",
+    "figma-plugin",
+    "design-tools"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guhcostan/figma-mcp-bridge.git"
+  },
+  "homepage": "https://github.com/guhcostan/figma-mcp-bridge#readme",
+  "bugs": {
+    "url": "https://github.com/guhcostan/figma-mcp-bridge/issues"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "node-html-parser": "^7.1.0",
+    "ws": "^8.18.0",
+    "zod": "^3.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/ws": "^8.5.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^4.0.18"
+  }
+}

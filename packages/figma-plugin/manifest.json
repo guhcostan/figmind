@@ -1,0 +1,13 @@
+{
+  "name": "Figma MCP Bridge",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "ui": "dist/ui.html",
+  "editorType": ["figma", "figjam", "dev"],
+  "networkAccess": {
+    "allowedDomains": ["ws://localhost:4545"],
+    "reasoning": "Connects to a locally running MCP server at ws://localhost:4545 to enable AI-assisted design operations through Cursor."
+  },
+  "permissions": [],
+  "capabilities": ["inspect"]
+}
